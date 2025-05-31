@@ -1,6 +1,2 @@
 .DS_Store
-
-wp-block-dev/wp-admin/
-wp-block-dev/wp-includes/
-
 node_modules
