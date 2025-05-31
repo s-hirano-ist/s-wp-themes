@@ -1,0 +1,22 @@
+{
+  "name": "my-block-theme",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "wp-scripts start",
+    "build": "wp-scripts build",
+    "lint:js": "wp-scripts lint-js",
+    "format": "wp-scripts format-js",
+    "wp-start": "wp-env start",
+    "wp": "wp-env run cli wp"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@wordpress/create-block": "^4.67.0",
+    "@wordpress/env": "^10.24.0",
+    "@wordpress/scripts": "^30.17.0"
+  }
+}
