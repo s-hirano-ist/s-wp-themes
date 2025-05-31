@@ -1,0 +1,21 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/wp-env.json",
+	"themes": ["./"],
+	"env": {
+		"development": {
+		"port": 6888,
+		"phpmyadminPort": 6889
+		},
+		"tests": {
+		"port": 6886,
+		"phpmyadminPort": 6887
+		}
+	},
+	"config": {
+		"WP_DEBUG": true
+	},
+	"core": "WordPress/WordPress",
+	"plugins": [
+		"."
+	]
+}
