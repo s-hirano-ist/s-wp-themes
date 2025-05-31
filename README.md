@@ -6,17 +6,8 @@
 ## 環境構築
 
 ```bash
-pnpm install
-pnpm wp-start
-```
-
-- Username: admin
-- Password: password
-
-```bash
-# テーマ野有効化
-pnpm wp theme activate THEME_NAME
-
-# 固定ページ追加
-pnpm wp post create --post_type=page --post_title='Test Page 1' --post_status=publish
+# 対話型
+npx @wordpress/create-block
+# 自動作成
+npx @wordpress/create-block create-block-theme --wp-env --wp-scripts
 ```
